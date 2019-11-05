@@ -1,0 +1,28 @@
+<div style="text-align: center;">
+  <h1>Welcome to IT Academy STEP</h1>
+  <p class="lead">
+    The leading academy in Cambodia. Sign up to see our students projects
+  </p>
+  <div class="text-center">
+    <button class="btn btn-primary btn-lg" (click)="registerToggle()">
+      Register
+    </button>
+    <button class="btn btn-info btn-lg" style="margin-left: 10px;">
+      Learn more
+    </button>
+  </div>
+</div>
+
+<div *ngIf="registerMode" class="container">
+  <div
+    class="col-md-4 col-md-offset-4"
+    style="margin: 0 auto; margin-top: 30px;"
+  >
+    <app-register
+      [valuesFromHome]="values"
+      (cancelRegister)="cancelRegisterMode($event)"
+    ></app-register>
+  </div>
+</div>
+
+<!-- <p *ngFor="let value of values">{{ value.id }}: {{ value.name }}</p> -->

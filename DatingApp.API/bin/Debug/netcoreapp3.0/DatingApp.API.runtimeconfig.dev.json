@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/chetha/.dotnet/store/|arch|/|tfm|",
+      "/Users/chetha/.nuget/packages"
+    ]
+  }
+}
