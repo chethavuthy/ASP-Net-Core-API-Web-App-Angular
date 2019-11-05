@@ -131,3 +131,4 @@
 /Users/chetha/Documents/IT/ProjectDotNetCore/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/chetha/Documents/IT/ProjectDotNetCore/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Protocols.dll
 /Users/chetha/Documents/IT/ProjectDotNetCore/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/chetha/Documents/IT/ProjectDotNetCore/DatingApp/DatingApp.API/bin/Debug/netcoreapp3.0/Properties/launchSettings.json
