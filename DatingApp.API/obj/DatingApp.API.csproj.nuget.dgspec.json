@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chetha/Documents/IT/ProjectDotNetCore/DatingApp/DatingApp.API/DatingApp.API.csproj": {}
+    "/Users/chetha/Documents/Document/IT/ASP.Net Core/DatingApp/DatingApp.API/DatingApp.API.csproj": {}
   },
   "projects": {
-    "/Users/chetha/Documents/IT/ProjectDotNetCore/DatingApp/DatingApp.API/DatingApp.API.csproj": {
+    "/Users/chetha/Documents/Document/IT/ASP.Net Core/DatingApp/DatingApp.API/DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chetha/Documents/IT/ProjectDotNetCore/DatingApp/DatingApp.API/DatingApp.API.csproj",
+        "projectUniqueName": "/Users/chetha/Documents/Document/IT/ASP.Net Core/DatingApp/DatingApp.API/DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "/Users/chetha/Documents/IT/ProjectDotNetCore/DatingApp/DatingApp.API/DatingApp.API.csproj",
+        "projectPath": "/Users/chetha/Documents/Document/IT/ASP.Net Core/DatingApp/DatingApp.API/DatingApp.API.csproj",
         "packagesPath": "/Users/chetha/.nuget/packages/",
-        "outputPath": "/Users/chetha/Documents/IT/ProjectDotNetCore/DatingApp/DatingApp.API/obj/",
+        "outputPath": "/Users/chetha/Documents/Document/IT/ASP.Net Core/DatingApp/DatingApp.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chetha/.nuget/NuGet/NuGet.Config"

@@ -1,4 +1,8 @@
-<form #registerForm="ngForm" (ngSubmit)="register()" style="margin: 0 auto;">
+<form
+  #registerForm="ngForm"
+  (ngSubmit)="register(registerForm.value)"
+  style="margin: 0 auto;"
+>
   <h2 class="text-center text-primary">Sign Up</h2>
   <hr />
   <div class="form-group">
