@@ -4,12 +4,12 @@ using System.Text;
 using System.IdentityModel.Tokens.Jwt;
 using System.Threading.Tasks;
 using DatingApp.API.Data;
-using DatingApp.API.Dtos;
 using DatingApp.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Configuration;
 using Microsoft.AspNetCore.Authorization;
+using DatingApp.API.Dtos;
 
 namespace DatingApp.API.Controllers
 {
@@ -65,7 +65,7 @@ namespace DatingApp.API.Controllers
                     new Claim(ClaimTypes.NameIdentifier, userFromRepo.Id.ToString()),
                     new Claim(ClaimTypes.Name, userFromRepo.Username)
           }),
-        Expires = DateTime.Now.AddDays(1),
+        Expires = DateTime.Now.AddHours(12),
         SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key),
               SecurityAlgorithms.HmacSha512Signature)
       };

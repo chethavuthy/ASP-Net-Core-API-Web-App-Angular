@@ -14,6 +14,12 @@ import { AlertifyService } from './_services/alertify.service';
 import { JwtModule } from '@auth0/angular-jwt';
 import { HttpClientModule } from '@angular/common/http';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { MemberListComponent } from './member-list/member-list.component';
+import { ListsComponent } from './lists/lists.component';
+import { MessagesComponent } from './messages/messages.component';
+import { RouterModule } from '@angular/router';
+import { appRoutes } from './routes';
+import { AuthGuard } from './_guards/auth.guard';
 
 export function getToken() {
   return localStorage.getItem('access_token');
@@ -24,7 +30,10 @@ export function getToken() {
     ValueComponent,
     NavComponent,
     HomeComponent,
-    RegisterComponent
+    RegisterComponent,
+    MemberListComponent,
+    ListsComponent,
+    MessagesComponent
   ],
   imports: [
     BrowserModule,
@@ -36,9 +45,10 @@ export function getToken() {
         tokenGetter: getToken
       }
     }),
-    BsDropdownModule.forRoot()
+    BsDropdownModule.forRoot(),
+    RouterModule.forRoot(appRoutes)
   ],
-  providers: [AuthService, AlertifyService],
+  providers: [AuthService, AlertifyService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule {}

@@ -1,3 +1,8 @@
 .dropdown-menu li {
   cursor: pointer;
 }
+
+#my-nav {
+  color: rgb(47, 126, 247) !important;
+  font-size: 30px;
+}
